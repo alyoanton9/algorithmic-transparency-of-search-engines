@@ -7,8 +7,7 @@ sys.path.append(os.path.dirname(os.path.abspath('src/common')))
 import json
 
 from common.engine import Engine
-from common.config import fusion_dir, scrapping_log, updating_log
-from common.util import separator
+from common.config import fusion_dir, logs_dir, scrapping_log, updating_log
 from visiting import Visiting
 from util import get_fusion_log
 
@@ -29,7 +28,7 @@ if __name__ == '__main__':
     
     all_visitors = engine_visiting.get_all_visitors()
 
-    fusion_log = get_fusion_log(engine)
+    fusion_log = get_fusion_log(logs_dir, engine)
   
     with open(fusion_log, 'w') as f:
       json.dump(all_visitors, f, indent=4)

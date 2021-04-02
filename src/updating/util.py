@@ -4,14 +4,10 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.abspath('src/common')))
 
-
 import re
 
 from common.util import page_title, separator
 
-
-# path of 'index.html'
-index_path = 'data' + separator + 'www' + separator + 'index.html'
 
 def increase_version(html) -> (str, int):
   title_version_regex = f'{page_title}[0-9]*'

@@ -4,13 +4,12 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.abspath('src/common')))
 
-
 import json
 
 from datetime import datetime
 
-from common.config import updating_log
-from util import increase_version, index_path
+from common.config import updating_log, index_path
+from util import increase_version
 
 
 if __name__ == '__main__':

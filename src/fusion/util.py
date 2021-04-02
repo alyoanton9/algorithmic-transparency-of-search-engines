@@ -7,11 +7,10 @@ sys.path.append(os.path.dirname(os.path.abspath('src/common')))
 import json
 import re
 
-from common.config import logs_dir
 from common.util import page_title, separator
 
 
-def get_fusion_log(engine) -> str:
+def get_fusion_log(logs_dir, engine) -> str:
   """
   Return path of fusion log
   by engine name.
