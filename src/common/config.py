@@ -13,3 +13,7 @@ fusion_dir = logs_dir + separator + 'fusion'
 
 # gecko webdriver
 gecko_path = 'gecko' + separator + 'geckodriver'
+
+# website files
+data_www_dir = 'data' + separator + 'www'
+index_path = data_www_dir + separator + 'index.html'
