@@ -9,12 +9,25 @@ import re
 
 from scraping.scraper import SearchResultItem
 from scraping.chunks.prefix_mapping import chunk_prefixes, chunk_prefix_len
+from scraping.util import chunk_keyword
+
+
+def omit_keyword_quotes(string) -> str:
+  '''
+  Omit quotes '"' in the string
+  which has 'chunk_keyword' as substring.
+  Before:
+    '"azpoicvsdu" blabla'
+  After:
+    'azpoicvsdu blabla' 
+  '''
+  return re.sub(f'"{chunk_keyword}"', f'{chunk_keyword}', string)
 
 
 def find_chunk_index(search_result_item: SearchResultItem) -> int:
   chunk_index = -1
 
-  title = search_result_item.title
+  title = omit_keyword_quotes(search_result_item.title)
   link = search_result_item.link
 
   chunk_match = re.search(r'(chunk(_)?)(\d+)', title)
