@@ -1,30 +1,22 @@
-# It's necessary to add the path of 'src/scraping'
-# in 'sys.path' to import 'scraper', 'chunks' modules
-import os
-import sys
-sys.path.append(os.path.dirname(os.path.abspath('src/common')))
-sys.path.append(os.path.dirname(os.path.abspath('src/scraping')))
-
 import re
 
-from scraping.scraper import SearchResultItem
+from common.site import omit_keyword_quotes
 from scraping.chunks.prefix_mapping import chunk_prefixes, chunk_prefix_len
-from scraping.util import chunk_keyword
-
-
-def omit_keyword_quotes(string) -> str:
-  '''
-  Omit quotes '"' in the string
-  which has 'chunk_keyword' as substring.
-  Before:
-    '"azpoicvsdu" blabla'
-  After:
-    'azpoicvsdu blabla' 
-  '''
-  return re.sub(f'"{chunk_keyword}"', f'{chunk_keyword}', string)
+from scraping.scraper import SearchResultItem
 
 
 def find_chunk_index(search_result_item: SearchResultItem) -> int:
+  '''
+  Return index of chunk document
+  by title and link extracted from SERP:
+  Example:
+    link: https://hydromel-chouchenn.eu.org/chunks/chunk_83
+    index: 83
+
+    title: azpoicvsdu un mt mll. uf ehq iull rqoquvq yq, ea ygoh thq ...
+    index: 43
+    ^ Because chunk_prefixes = {... 'azpoicvsdu un mt mll' : 43 ...}
+  '''
   chunk_index = -1
 
   title = omit_keyword_quotes(search_result_item.title)

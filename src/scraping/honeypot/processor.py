@@ -1,15 +1,19 @@
-# It's necessary to add the path of 'src/common'
-# in 'sys.path' to import 'config', 'engine', 'util' modules
-import os
-import sys
-sys.path.append(os.path.dirname(os.path.abspath('src/scrapping')))
-
 from datetime import datetime
 
+from common.config import custom_date_format
 from scraping.scraper import SearchResultItem, SearchResults
-from scraping.util import is_honeypot
 
-# TODO rename module?
+
+honeypot_domain = 'hydromel-chouchenn.eu.org'
+honeypot_keyword = 'azpoicvsda'
+
+
+def is_honeypot(link: str) -> bool:
+  '''
+  Check by the given link if website is honeypot.
+  '''
+  link = link.strip().strip('/')
+  return link == f'https://{honeypot_domain}' or link == honeypot_domain
 
 
 def get_honeypot_position_and_title(search_result_items: [SearchResultItem]) -> (int, str):
@@ -26,10 +30,9 @@ def get_honeypot_position_and_title(search_result_items: [SearchResultItem]) -> 
     return position, ''
 
 
-def add_search_results_to_logs_buffer(search_results: SearchResults, logs_buffer: []):
+def add_search_results_to_logs_buffer(search_results: SearchResults, buffer: [dict]):
   position, title = get_honeypot_position_and_title(search_results.items)
 
-  # TODO don't convert to strings everything
   log_item = {
     'engine': search_results.engine,
     'query': search_results.query,
@@ -38,8 +41,8 @@ def add_search_results_to_logs_buffer(search_results: SearchResults, logs_buffer
     'position': str(position),
     'title': title,
     'errors': search_results.internal_log,
-    'time': datetime.now().strftime(format='%d/%m/%Y %H:%M:%S') # TODO check format
+    'time': datetime.now().strftime(format=custom_date_format)
   }
 
-  logs_buffer.append(log_item)
-  return logs_buffer
+  buffer.append(log_item)
+  return buffer

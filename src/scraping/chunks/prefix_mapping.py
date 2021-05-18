@@ -1,11 +1,13 @@
-from scraping.util import chunk_keyword
+from common.site import chunk_keyword
 
 
 chunk_prefix_len = 20
 
 '''
-First 20 symbols of chunk file,
+First 20 symbols of each chunk document,
 excluding extra white spaces.
+Uncommon apostrophes ‘ and ’
+are replaced with common ones '.
 '''
 chunk_prefixes = {
   chunk_keyword + ' pmrt u u.' : 1,

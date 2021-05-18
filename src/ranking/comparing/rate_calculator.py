@@ -1,15 +1,9 @@
-import os
-import sys
-sys.path.append(os.path.dirname(os.path.abspath('src/common')))
-sys.path.append(os.path.dirname(os.path.abspath('src/ranking')))
-sys.path.append(os.path.dirname(os.path.abspath('src/scraping')))
-
 from dataclasses import dataclass
 from statistics import mean
 
+from common.site import omit_keyword_quotes
 from ranking.comparing.ranking_function import RankingFunction
 from ranking.comparing.util import filter_duplicate_elements, filter_element, filter_missing_indexes
-from scraping.chunks.process import omit_keyword_quotes
 
 
 # custom types

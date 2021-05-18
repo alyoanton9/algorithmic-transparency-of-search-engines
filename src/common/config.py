@@ -1,19 +1,21 @@
-import os
+# TODO perhaps add write and read modes ('w' and 'r')
 
-from common.util import separator
+# directory with all logs
+logs_dir = 'logs/'
 
-
-logs_dir = 'logs'
-
-# logs
-scrapping_log = logs_dir + separator + 'scrapping.json'
-updating_log = logs_dir + separator + 'updating.json'
-access_dir = logs_dir + separator + 'access'
-fusion_dir = logs_dir + separator + 'fusion'
+# logs' paths
+scraping_log = f'{logs_dir}scraping.json'
+updating_log = f'{logs_dir}updating.json'
+access_logs_dir = f'{logs_dir}access/'
+fusion_logs_dir = f'{logs_dir}fusion/'
 
 # gecko webdriver
-gecko_path = 'gecko' + separator + 'geckodriver'
+gecko_path = 'gecko/geckodriver'
 
-# website files
-data_www_dir = 'data' + separator + 'www'
-index_path = data_www_dir + separator + 'index.html'
+# website pages
+data_www_dir = 'data/www/'
+index_path = f'{data_www_dir}index.html'
+
+# date format which is used in
+# scraping, updating and fusion logs
+custom_date_format = '%d/%m/%Y %H:%M:%S'

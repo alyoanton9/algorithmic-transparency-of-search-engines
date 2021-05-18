@@ -1,12 +1,17 @@
-# It's necessary to add the path of 'src/common'
-# in 'sys.path' to import 'process' module
-import os
-import sys
-sys.path.append(os.path.dirname(os.path.abspath('src/ranking')))
+######################## Hack to enable local import ########################
+
+import os, sys
+sys.path.append(os.path.dirname(os.path.abspath(f'src/enable_local_import')))
+
+from enable_local_import import enable_import
+enable_import()
+
+#############################################################################
+
 
 import json
 
-from ranking.local.diff_searching.process import chunks_number, make_chunk_filename, make_order_filename, process_document, process_file_content, tokenize_corpus
+from ranking.local.diff_searching.processor import chunks_number, make_chunk_filename, make_order_filename, process_document, process_file_content, tokenize_corpus
 
 
 if __name__ == '__main__':

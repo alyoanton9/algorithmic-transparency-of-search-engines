@@ -1,18 +1,19 @@
+from common.config import data_www_dir
+from common.site import chunk_keyword
+
 import itertools
 
-from rank_bm25 import BM25L, BM25Okapi, BM25Plus
+from rank_bm25 import BM25, BM25L, BM25Okapi, BM25Plus
 
 
 chunks_number = 200
 
-common_keyword = 'azpoicvsdu'
-
-documents_dir = 'data/www/chunks/'
+documents_dir = f'{data_www_dir}chunks/'
 
 orders_dir = 'src/ranking/local/doc_orders/'
 
 
-def make_order_filename(words_in_query) -> str:
+def make_order_filename(words_in_query: int) -> str:
   filename_suffix = '_queries.json'
   if words_in_query == 1:
     local_filename = '1word' + filename_suffix
@@ -22,16 +23,16 @@ def make_order_filename(words_in_query) -> str:
   return orders_dir + local_filename
 
 
-def make_chunk_filename(index) -> str:
+def make_chunk_filename(index: int) -> str:
   return documents_dir + 'chunk_' + str(index) + '.html'
 
 
-def process_file_content(filename) -> str:
-  """
+def process_file_content(filename: str) -> str:
+  '''
   Delete all extra whitespaces from the file,
   omit file's html tags,
   and return its contents as a string.
-  """
+  '''
   start_line_of_content = 9
   end_line_of_content = -3
   with open(filename, 'r') as f:
@@ -43,15 +44,15 @@ def process_file_content(filename) -> str:
   return file_str
 
 
-def tokenize_corpus(documents) -> [[str]]:
+def tokenize_corpus(documents: [str]) -> [[str]]:
   return [document.split() for document in documents]
 
 
-def tokenize_query(query) -> [str]:
+def tokenize_query(query: str) -> [str]:
   return query.split()
 
 
-def get_documents_order(query, bm25) -> [int]:
+def get_documents_order(query: str, bm25: BM25) -> [int]:
   documents_scores = bm25.get_scores(query)
   chunk_indexes = list(range(1, chunks_number + 1))
 
@@ -65,11 +66,11 @@ def get_documents_order(query, bm25) -> [int]:
   return list(reversed(order))
 
 
-def all_different(lists) -> bool:
-  """
+def all_different(lists: [int]) -> bool:
+  '''
   Check if all given lists
   are different collectively.
-  """
+  '''
   different = True
   for i in range(len(lists)):
     for j in range(i + 1, len(lists)):
@@ -78,17 +79,17 @@ def all_different(lists) -> bool:
   
   return different
 
-def process_document(tokenized_corpus, tokenized_document, queries_buffer):
+
+def process_document(tokenized_corpus: [[str]], tokenized_document: [str], queries_buffer: [dict]) -> [dict]:
   # prev_word = ''
   word_ind = 1
-  words_total = len(tokenized_document)
 
   for word in tokenized_document:
-    if word != common_keyword:
-      # query = common_keyword + ' ' + prev_word + ' ' + word
-      query = common_keyword + ' ' + word
+    if word != chunk_keyword:
+      # query = chunk_keyword + ' ' + prev_word + ' ' + word
+      query = chunk_keyword + ' ' + word
       
-      tokenized_query = tokenize_query(common_keyword + ' ' + word)
+      tokenized_query = tokenize_query(chunk_keyword + ' ' + word)
 
       orders = []
 

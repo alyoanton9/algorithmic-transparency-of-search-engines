@@ -1,9 +1,8 @@
 import json
-import os
 import re
 
 
-def pretty_dump_json(obj, filename):
+def pretty_dump_json(obj, filename: str):
   '''
   Dump json 'obj' to file 'filename'.
   Then read this file to
@@ -29,18 +28,3 @@ def pretty_dump_json(obj, filename):
 
   with open(filename, 'w') as f:
     f.write(pretty_content)
-
-
-def rotate_files(dirpath, file_prefix):
-  '''
-  Remove file with index '1',
-  rename other files subtracting 1
-  from each file's index.
-  '''
-  filepath_prefix = dirpath + file_prefix
-  os.remove(f'{filepath_prefix}1')
-  filepaths = os.listdir(dirpath)
-
-  for ind in range(2, len(filepaths) + 1):
-    filepath = filepath_prefix + str(ind)
-    os.rename(filepath, filepath_prefix + str(ind - 1))

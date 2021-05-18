@@ -1,11 +1,13 @@
-# It's necessary to add the path of 'src/common'
-# in 'sys.path' to import 'scraping.chunks' module
-import os
-import sys
-sys.path.append(os.path.dirname(os.path.abspath('src/common')))
-sys.path.append(os.path.dirname(os.path.abspath('src/scraping')))
-sys.path.append(os.path.dirname(os.path.abspath('src/scraping/chunks')))
-sys.path.append(os.path.dirname(os.path.abspath('src/ranking/remote/chunks_scraping')))
+######################## Hack to enable local import ########################
+
+import os, sys
+sys.path.append(os.path.dirname(os.path.abspath(f'src/enable_local_import')))
+
+from enable_local_import import enable_import
+enable_import()
+
+#############################################################################
+
 
 import json
 
@@ -13,11 +15,11 @@ from fake_useragent import UserAgent
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
-from ranking.remote.chunks_scraping.util import pretty_dump_json, rotate_files
 from common.config import gecko_path
 from common.engine import Engine
+from ranking.remote.chunks_scraping.util import pretty_dump_json
 from scraping.scraper import Scraper
-from scraping.chunks.process import find_chunk_index
+from scraping.chunks.processor import find_chunk_index
 
 
 queries_dir = 'src/ranking/queries/'
@@ -25,6 +27,21 @@ queries_dir = 'src/ranking/queries/'
 current_query_filename = queries_dir + 'query_1'
 
 orders_dir = 'src/ranking/remote/doc_orders/'
+
+
+def rotate_files(dirpath: str, file_prefix: str):
+  '''
+  Remove file with index '1',
+  rename other files subtracting 1
+  from each file's index.
+  '''
+  filepath_prefix = dirpath + file_prefix
+  os.remove(f'{filepath_prefix}1')
+  filepaths = os.listdir(dirpath)
+
+  for ind in range(2, len(filepaths) + 1):
+    filepath = filepath_prefix + str(ind)
+    os.rename(filepath, filepath_prefix + str(ind - 1))
 
 
 if __name__ == '__main__':
@@ -37,9 +54,6 @@ if __name__ == '__main__':
 
   with open(current_query_filename, 'r') as f:
     query = f.read()
-  
-  # need it to monitor scheduled srcaping
-  print('query:', query)
 
   for engine_item in Engine:
     engine = engine_item.value
@@ -47,7 +61,7 @@ if __name__ == '__main__':
     if engine != Engine.GOOGLE.value and engine != Engine.YANDEX.value:
       continue
 
-    engine_orders_filename = orders_dir + engine + '.json'
+    engine_orders_filename = f'{orders_dir}{engine}.json'
     with open(engine_orders_filename) as f:
       orders_buffer = json.load(f)
 

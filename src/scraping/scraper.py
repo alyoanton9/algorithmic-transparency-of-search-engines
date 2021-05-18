@@ -1,17 +1,10 @@
-# It's necessary to add the path of 'src/common'
-# in 'sys.path' to import 'config', 'engine', 'util' modules
-import os
-import sys
-sys.path.append(os.path.dirname(os.path.abspath('src/common')))
-
 import time
 
 from bs4 import BeautifulSoup
 from dataclasses import dataclass
-from datetime import datetime
+from selenium import webdriver
 
 from common.engine import Engine
-from .util import is_honeypot
 
 
 @dataclass
@@ -65,7 +58,7 @@ class Scraper():
   secs_to_load_page = 3
 
 
-  def __init__(self, user_agent, driver, query, engine, with_omitted_results):
+  def __init__(self, user_agent: str, driver: webdriver.Firefox, query: str, engine: str, with_omitted_results: bool):
     self.user_agent = user_agent
     self.driver = driver
     self.query = query
@@ -81,7 +74,7 @@ class Scraper():
     return self._obtain_search_results(all_pages=True)
 
 
-  def _make_soup(self, with_omitted_results) -> BeautifulSoup:
+  def _make_soup(self, with_omitted_results: bool) -> BeautifulSoup:
     url = f'{self.search_refs[self.engine]}{self.query}'
     if with_omitted_results:
       if self.engine == Engine.GOOGLE.value:
@@ -97,21 +90,20 @@ class Scraper():
     scrape_results = ScrapeResult(items=[])
     soup = self.soup
 
-    while soup != None: #TODO remove != None
+    while soup != None:
       scrape_results.append_scrape_result(self._scrape())
       soup = self._get_next_soup()
 
     return scrape_results
 
 
-  # TODO add type of func argument
   def _obtain_search_results(self, all_pages: bool) -> SearchResults:
     scrape_result = ScrapeResult(items=[])
     internal_exception = ''
 
     try:
       if all_pages:
-        while self.soup != None: #TODO remove != None
+        while self.soup != None:
           scrape_result.append_scrape_result(self._scrape())
           self.soup = self._get_next_soup()
       else:
@@ -215,8 +207,8 @@ class Scraper():
       )
 
 
-  # TODO think about making generic
   def _scrape_bing(self) -> ScrapeResult:
+    # TODO make more generic?
     titles = self.soup.find_all(name='li', class_='b_algo')
     titles = list(
       map(lambda s: s.find(name='h2').text, titles)
@@ -319,7 +311,7 @@ class Scraper():
     )
 
 
-  def _common_scrape(self, title_tag_name, title_class, link_tag_name, link_class) -> ScrapeResult:
+  def _common_scrape(self, title_tag_name: str, title_class: str, link_tag_name: str, link_class: str) -> ScrapeResult:
     titles = self.soup.find_all(name=title_tag_name, class_=title_class)
     titles = list(
       map(lambda s: s.text, titles)

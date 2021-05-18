@@ -1,14 +1,18 @@
-# It's necessary to add the path of 'src/common', 'src/ranking'
-# in 'sys.path' to import 'local' and 'engine' modules
-import os
-import sys
-sys.path.append(os.path.dirname(os.path.abspath('src/common')))
-sys.path.append(os.path.dirname(os.path.abspath('src/ranking')))
+######################## Hack to enable local import ########################
+
+import os, sys
+sys.path.append(os.path.dirname(os.path.abspath(f'src/enable_local_import')))
+
+from enable_local_import import enable_import
+enable_import()
+
+#############################################################################
+
 
 import json
 
 from common.engine import Engine
-from ranking.local.diff_searching.process import make_order_filename
+from ranking.local.diff_searching.processor import make_order_filename
 from ranking.comparing.rate import pairwise_ordered_rate
 from ranking.comparing.rate_calculator import RateCalculator, query_order
 
