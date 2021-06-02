@@ -11,12 +11,14 @@ enable_import()
 
 import json
 
-from ranking.local.diff_searching.processor import chunks_number, make_chunk_filename, make_order_filename, process_document, process_file_content, tokenize_corpus
+from ranking.local.diff_searching.processor import chunks_number, doc_orders_filename, make_chunk_filename, process_document, process_file_content, tokenize_corpus
 
 
 if __name__ == '__main__':
   documents = []
-  queries_buffer = []
+
+  with open(doc_orders_filename, 'r') as f:
+    queries_buffer = json.load(f)
 
   for i in range(1, chunks_number + 1):
     filename = make_chunk_filename(i)
@@ -24,14 +26,15 @@ if __name__ == '__main__':
     documents.append(document)
   
   tokenized_corpus = tokenize_corpus(documents)
+  found_queries = set()
 
   # We didn't process each file actually,
-  # because we only need ~50-100 queries
+  # because we only need ~100-300 queries
   # for our dataset.
-  # Thus, we're fine with processing only 1 document.
-  for tokenized_document in tokenized_corpus:
-    queries_buffer = process_document(tokenized_corpus, tokenized_document, queries_buffer)
+  # Thus, we're fine with processing only ~10 documents (1-word and 2-words).
+  for ind, tokenized_document in enumerate(tokenized_corpus[:5]):
+    print(f'document №{ind + 1} is being processed...')
+    queries_buffer = process_document(tokenized_corpus, tokenized_document, queries_buffer, found_queries)
 
-  order_filename = make_order_filename(words_in_query=1)
-  with open(order_filename, 'w') as f:
+  with open(doc_orders_filename, 'w') as f:
     json.dump(queries_buffer, f, indent=4)

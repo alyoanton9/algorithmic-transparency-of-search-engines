@@ -10,6 +10,7 @@ enable_import()
 
 
 import json
+import re
 
 from fake_useragent import UserAgent
 from selenium import webdriver
@@ -17,16 +18,17 @@ from selenium.webdriver.firefox.options import Options
 
 from common.config import gecko_path
 from common.engine import Engine
+from common.site import add_keyword_quotes
 from ranking.remote.chunks_scraping.util import pretty_dump_json
 from scraping.scraper import Scraper
 from scraping.chunks.processor import find_chunk_index
 
 
-queries_dir = 'src/ranking/queries/'
+queries_dir = 'temp/ranking/queries/'
 
 current_query_filename = queries_dir + 'query_1'
 
-orders_dir = 'src/ranking/remote/doc_orders/'
+orders_dir = 'temp/ranking/remote/doc_orders/'
 
 
 def rotate_files(dirpath: str, file_prefix: str):
@@ -54,6 +56,8 @@ if __name__ == '__main__':
 
   with open(current_query_filename, 'r') as f:
     query = f.read()
+  
+  query_to_scrap = add_keyword_quotes(query)
 
   for engine_item in Engine:
     engine = engine_item.value
@@ -65,7 +69,7 @@ if __name__ == '__main__':
     with open(engine_orders_filename) as f:
       orders_buffer = json.load(f)
 
-    scraper = Scraper(user_agent, driver, query, engine, with_omitted_results=True)
+    scraper = Scraper(user_agent, driver, query_to_scrap, engine, with_omitted_results=True)
     search_results = scraper.obtain_all_pages_search_results()
 
     chunks_order = []

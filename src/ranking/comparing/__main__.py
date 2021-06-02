@@ -12,14 +12,17 @@ enable_import()
 import json
 
 from common.engine import Engine
-from ranking.local.diff_searching.processor import make_order_filename
-from ranking.comparing.rate import pairwise_ordered_rate
+from ranking.comparing.rate import bubble_sort_rate
 from ranking.comparing.rate_calculator import RateCalculator, query_order
 
 
-engine_orders_dirpath = 'src/ranking/remote/doc_orders/'
+engine_orders_dirpath = 'temp/ranking/remote/doc_orders/'
 
-result_similarity_dirpath = 'src/ranking/comparing/results/'
+ranking_functions_orders_path = 'temp/ranking/local/doc_orders/bm25.json'
+
+query_order_log_dirpath = 'logs/query_orders/'
+
+query_rates_dirpath = 'results/ranking/comparing/'
 
 query_str = 'query'
 
@@ -45,12 +48,8 @@ def filter_duplicate_queries(orders) -> query_order:
 
 
 def get_ranking_functions_orders() -> query_order:
-  orders = []
-  for i in [1, 2]:
-    orders_filename = make_order_filename(i)
-    with open(orders_filename, 'r') as f:
-      orders += json.load(f)
-
+  with open(ranking_functions_orders_path, 'r') as f:
+    orders = json.load(f)
   filtered_orders = filter_duplicate_queries(orders)
 
   return filtered_orders
@@ -60,23 +59,17 @@ if __name__ == '__main__':
   ranking_functions_orders = get_ranking_functions_orders()
 
   for engine in [Engine.GOOGLE.value, Engine.YANDEX.value]:
-    engine_result_similarity_dirpath = f'{result_similarity_dirpath}{engine}.json'
-
-    with open(engine_result_similarity_dirpath, 'r') as f:
-      buffer = json.load(f)
+    query_order_buffer = []
+    query_rate_buffer = []
 
     engine_orders = get_engine_orders(engine)
     queries_number = len(engine_orders)
 
-    rate_calculator = RateCalculator(engine, pairwise_ordered_rate, engine_orders, ranking_functions_orders)
-    engine_rate = rate_calculator.calculate_engine_rate()
+    rate_calculator = RateCalculator(engine, bubble_sort_rate, engine_orders, ranking_functions_orders)
+    query_rates, query_orders = rate_calculator.calculate_query_rates_and_orders()
 
-    engine_rate_with_dataset_size = engine_rate.to_dict()
-    engine_rate_with_dataset_size.update(
-      {'queries number': queries_number}
-    )
+    with open(f'{query_order_log_dirpath}{engine}.json', 'w') as f:
+      json.dump(query_orders, f, indent=4)
 
-    buffer.append(engine_rate_with_dataset_size)
-
-    with open(engine_result_similarity_dirpath, 'w') as f:
-      json.dump(buffer, f, indent=4)
+    with open(f'{query_rates_dirpath}{engine}.json', 'w') as f:
+      json.dump(query_rates, f, indent=4)

@@ -2,6 +2,7 @@ from common.config import data_www_dir
 from common.site import chunk_keyword
 
 import itertools
+import re
 
 from rank_bm25 import BM25, BM25L, BM25Okapi, BM25Plus
 
@@ -10,7 +11,16 @@ chunks_number = 200
 
 documents_dir = f'{data_www_dir}chunks/'
 
-orders_dir = 'src/ranking/local/doc_orders/'
+orders_dir = 'temp/ranking/local/doc_orders/'
+
+doc_orders_filename = f'{orders_dir}/bm25.json'
+
+max_word_len = 4
+
+
+def omit_signs(string: str):
+  string = re.sub(r'[^A-Za-z0-9’ ]+', ' ', string)
+  return string
 
 
 def make_order_filename(words_in_query: int) -> str:
@@ -29,8 +39,9 @@ def make_chunk_filename(index: int) -> str:
 
 def process_file_content(filename: str) -> str:
   '''
-  Delete all extra whitespaces from the file,
-  omit file's html tags,
+  Omit file's html tags,
+  delete all signs (except apostrophes)
+  from the file
   and return its contents as a string.
   '''
   start_line_of_content = 9
@@ -39,7 +50,8 @@ def process_file_content(filename: str) -> str:
     file_lines = f.readlines()
     file_lines = file_lines[start_line_of_content : end_line_of_content]
     file_list = list(itertools.chain.from_iterable(file_lines))
-    file_str = ''.join(file_list)
+    file_str_with_signs = ''.join(file_list)
+    file_str = omit_signs(file_str_with_signs)
 
   return file_str
 
@@ -52,7 +64,7 @@ def tokenize_query(query: str) -> [str]:
   return query.split()
 
 
-def get_documents_order(query: str, bm25: BM25) -> [int]:
+def get_documents_order(query: str, bm25: BM25, ind: int) -> [int]:
   documents_scores = bm25.get_scores(query)
   chunk_indexes = list(range(1, chunks_number + 1))
 
@@ -62,7 +74,17 @@ def get_documents_order(query: str, bm25: BM25) -> [int]:
 
   sorted_scores = sorted(score_with_index)
   order = [index for _, index in sorted_scores]
-
+  
+  with open(f'{orders_dir}/documents_order.log', 'a') as f:
+    bm25_name = 'BM25'
+    if ind == 0:
+      bm25_name += 'L'
+    if ind == 1:
+      bm25_name += 'OKapi'
+    if ind == 2:
+      bm25_name += 'Plus'
+    f.write(f'query: {query}\nbm25: {bm25_name}\nscore with index: {score_with_index}\norder: {list(reversed(order))}\n\n')
+  
   return list(reversed(order))
 
 
@@ -80,28 +102,29 @@ def all_different(lists: [int]) -> bool:
   return different
 
 
-def process_document(tokenized_corpus: [[str]], tokenized_document: [str], queries_buffer: [dict]) -> [dict]:
-  # prev_word = ''
+def process_document(tokenized_corpus: [[str]], tokenized_document: [str], buffer: [dict], queries: set[str]) -> [dict]:
+  prev_word = ''
   word_ind = 1
+  words_total = len(tokenized_document)
 
   for word in tokenized_document:
-    if word != chunk_keyword:
-      # query = chunk_keyword + ' ' + prev_word + ' ' + word
-      query = chunk_keyword + ' ' + word
+    if word != chunk_keyword and '’' not in word and len(word) >= max_word_len:
+      query = chunk_keyword + ' ' + prev_word + ' ' + word
+      # query = chunk_keyword + ' ' + word
       
-      tokenized_query = tokenize_query(chunk_keyword + ' ' + word)
+      tokenized_query = tokenize_query(query)
 
       orders = []
 
-      for bm25 in [
+      for ind, bm25 in enumerate([
         BM25L(tokenized_corpus),
         BM25Okapi(tokenized_corpus),
         BM25Plus(tokenized_corpus)
-      ]:
-        documents_order = get_documents_order(tokenized_query, bm25)
+      ]):
+        documents_order = get_documents_order(tokenized_query, bm25, ind)
         orders.append(documents_order)
       
-      if all_different(orders):
+      if all_different(orders) and (prev_word not in queries) and (word not in queries):
         query_entry = {
           'query': query,
           'orders': list(zip(
@@ -110,8 +133,15 @@ def process_document(tokenized_corpus: [[str]], tokenized_document: [str], queri
           ))
         }
 
-        queries_buffer.append(query_entry)
+        buffer.append(query_entry)
+        queries.add(prev_word)
+        queries.add(word)
       
-      word_ind += 1
+      prev_word = word
+
+    if word_ind % 100 == 0:
+      print(f'{word_ind}/{words_total} words processed')
+
+    word_ind += 1
   
-  return queries_buffer
+  return buffer
