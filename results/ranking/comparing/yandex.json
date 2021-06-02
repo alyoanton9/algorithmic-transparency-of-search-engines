@@ -1,0 +1,1906 @@
+[
+    {
+        "query": "azpoicvsdu drqeeqd etaad",
+        "rate": {
+            "BM25L": 0.01856565354094919,
+            "BM25Okapi": 0.018925056775170312,
+            "BM25Plus": 0.01891360266303521
+        }
+    },
+    {
+        "query": "azpoicvsdu yqrq emwq",
+        "rate": {
+            "BM25L": 0.015642151481888078,
+            "BM25Okapi": 0.01603478733523578,
+            "BM25Plus": 0.016054421768707527
+        }
+    },
+    {
+        "query": "azpoicvsdu iarde brqmth",
+        "rate": {
+            "BM25L": 0.0215729573636827,
+            "BM25Okapi": 0.021853294934778944,
+            "BM25Plus": 0.021827411167512745
+        }
+    },
+    {
+        "query": "azpoicvsdu laawuns yulluanmurq",
+        "rate": {
+            "BM25L": 0.018947698089570975,
+            "BM25Okapi": 0.012890955198647469,
+            "BM25Plus": 0.01909532008138992
+        }
+    },
+    {
+        "query": "azpoicvsdu ihmtqvqr brathqr",
+        "rate": {
+            "BM25L": 0.015313344485909153,
+            "BM25Okapi": 0.015307435039876527,
+            "BM25Plus": 0.015313344485909153
+        }
+    },
+    {
+        "query": "azpoicvsdu etgypqd kagr",
+        "rate": {
+            "BM25L": 0.017273288093769268,
+            "BM25Okapi": 0.01709270095472748,
+            "BM25Plus": 0.017273288093769268
+        }
+    },
+    {
+        "query": "azpoicvsdu eayqthuns oayq",
+        "rate": {
+            "BM25L": 0.019624147680026627,
+            "BM25Okapi": 0.019872127181613908,
+            "BM25Plus": 0.02139330773450354
+        }
+    },
+    {
+        "query": "azpoicvsdu tatewu mfmnmek",
+        "rate": {
+            "BM25L": 0.015279503105590009,
+            "BM25Okapi": 0.01534653465346536,
+            "BM25Plus": 0.015470297029702929
+        }
+    },
+    {
+        "query": "azpoicvsdu yget rqyqybqr",
+        "rate": {
+            "BM25L": 0.019333333333333313,
+            "BM25Okapi": 0.021465581051073324,
+            "BM25Plus": 0.018599385411612435
+        }
+    },
+    {
+        "query": "azpoicvsdu outk fgll",
+        "rate": {
+            "BM25L": 0.016154188948306558,
+            "BM25Okapi": 0.016044568245125346,
+            "BM25Plus": 0.016044568245125346
+        }
+    },
+    {
+        "query": "azpoicvsdu thue pmrtuoglmr",
+        "rate": {
+            "BM25L": 0.018463464246596728,
+            "BM25Okapi": 0.0183629007158419,
+            "BM25Plus": 0.018142347650798585
+        }
+    },
+    {
+        "query": "azpoicvsdu ragnd pgbluo",
+        "rate": {
+            "BM25L": 0.017463498425422275,
+            "BM25Okapi": 0.017393783860849776,
+            "BM25Plus": 0.017558886509635996
+        }
+    },
+    {
+        "query": "azpoicvsdu ihay wnaie",
+        "rate": {
+            "BM25L": 0.01906547898109079,
+            "BM25Okapi": 0.018275967103259183,
+            "BM25Plus": 0.01905356863970009
+        }
+    },
+    {
+        "query": "azpoicvsdu thuns iuthagt",
+        "rate": {
+            "BM25L": 0.022522522522522515,
+            "BM25Okapi": 0.028398005636245394,
+            "BM25Plus": 0.025574940523394152
+        }
+    },
+    {
+        "query": "azpoicvsdu mlea vauoq",
+        "rate": {
+            "BM25L": 0.01957952174610822,
+            "BM25Okapi": 0.01943005181347146,
+            "BM25Plus": 0.01963329547298398
+        }
+    },
+    {
+        "query": "azpoicvsdu dgruns lmttqr",
+        "rate": {
+            "BM25L": 0.018076983013869397,
+            "BM25Okapi": 0.018494897959183687,
+            "BM25Plus": 0.01834282099936746
+        }
+    },
+    {
+        "query": "azpoicvsdu mftqr nqxt",
+        "rate": {
+            "BM25L": 0.020504999152686,
+            "BM25Okapi": 0.02084769124741559,
+            "BM25Plus": 0.020937878525696507
+        }
+    },
+    {
+        "query": "azpoicvsdu iandqrqd etrmnsq",
+        "rate": {
+            "BM25L": 0.017390011890606405,
+            "BM25Okapi": 0.017120738424892035,
+            "BM25Plus": 0.017118189937481376
+        }
+    },
+    {
+        "query": "azpoicvsdu eunoq jget",
+        "rate": {
+            "BM25L": 0.018286068495273478,
+            "BM25Okapi": 0.01594720923838333,
+            "BM25Plus": 0.020016820857863715
+        }
+    },
+    {
+        "query": "azpoicvsdu olamw eqqe",
+        "rate": {
+            "BM25L": 0.013396663013031329,
+            "BM25Okapi": 0.013515158894435664,
+            "BM25Plus": 0.013516804676083738
+        }
+    },
+    {
+        "query": "azpoicvsdu ohmnoq ihuoh",
+        "rate": {
+            "BM25L": 0.01649281082605014,
+            "BM25Okapi": 0.016497461928933976,
+            "BM25Plus": 0.01649281082605014
+        }
+    },
+    {
+        "query": "azpoicvsdu ymttqr bqomgeq",
+        "rate": {
+            "BM25L": 0.01912350597609558,
+            "BM25Okapi": 0.020225855385133995,
+            "BM25Plus": 0.020290835306053467
+        }
+    },
+    {
+        "query": "azpoicvsdu uypartmnt ymnk",
+        "rate": {
+            "BM25L": 0.016239082969432328,
+            "BM25Okapi": 0.01642738818332412,
+            "BM25Plus": 0.01628129703105763
+        }
+    },
+    {
+        "query": "azpoicvsdu sqte fgrthqr",
+        "rate": {
+            "BM25L": 0.012477106227106183,
+            "BM25Okapi": 0.012479963361575419,
+            "BM25Plus": 0.012478534630795624
+        }
+    },
+    {
+        "query": "azpoicvsdu etgdk eqrvmnt",
+        "rate": {
+            "BM25L": 0.014865205341395793,
+            "BM25Okapi": 0.014861460957178885,
+            "BM25Plus": 0.014859589472358659
+        }
+    },
+    {
+        "query": "azpoicvsdu eqvqrml tuyqe",
+        "rate": {
+            "BM25L": 0.018419033000767415,
+            "BM25Okapi": 0.01856682522633113,
+            "BM25Plus": 0.018546903740036758
+        }
+    },
+    {
+        "query": "azpoicvsdu srain cgutq",
+        "rate": {
+            "BM25L": 0.01583147978542454,
+            "BM25Okapi": 0.015935214211076243,
+            "BM25Plus": 0.015692428403295433
+        }
+    },
+    {
+        "query": "azpoicvsdu prunoqee yguehwun",
+        "rate": {
+            "BM25L": 0.015822381013142817,
+            "BM25Okapi": 0.015817901234567944,
+            "BM25Plus": 0.015936254980079667
+        }
+    },
+    {
+        "query": "azpoicvsdu bqsgn lmtq",
+        "rate": {
+            "BM25L": 0.016065314722149115,
+            "BM25Okapi": 0.01617531959300811,
+            "BM25Plus": 0.016230366492146597
+        }
+    },
+    {
+        "query": "azpoicvsdu cgqetuan ihqthqr",
+        "rate": {
+            "BM25L": 0.020261219022103094,
+            "BM25Okapi": 0.019855291940097608,
+            "BM25Plus": 0.020450606585788567
+        }
+    },
+    {
+        "query": "azpoicvsdu yayqnt mfrmud",
+        "rate": {
+            "BM25L": 0.019266520196045245,
+            "BM25Okapi": 0.019736842105263164,
+            "BM25Plus": 0.01984679665738165
+        }
+    },
+    {
+        "query": "azpoicvsdu paar fmthqr",
+        "rate": {
+            "BM25L": 0.01973018549747052,
+            "BM25Okapi": 0.019145073444462812,
+            "BM25Plus": 0.019013276512047206
+        }
+    },
+    {
+        "query": "azpoicvsdu untqnduns egrqlk",
+        "rate": {
+            "BM25L": 0.018901622265218077,
+            "BM25Okapi": 0.018427700995690244,
+            "BM25Plus": 0.018730489073881418
+        }
+    },
+    {
+        "query": "azpoicvsdu eayqanq tmlw",
+        "rate": {
+            "BM25L": 0.017474547941042418,
+            "BM25Okapi": 0.01725420199315786,
+            "BM25Plus": 0.017303102625298328
+        }
+    },
+    {
+        "query": "azpoicvsdu thqmtrq qvqnuns",
+        "rate": {
+            "BM25L": 0.019589552238805985,
+            "BM25Okapi": 0.019571295433364444,
+            "BM25Plus": 0.019589552238805985
+        }
+    },
+    {
+        "query": "azpoicvsdu ymnnqr lqbqdqff",
+        "rate": {
+            "BM25L": 0.01786769049025394,
+            "BM25Okapi": 0.017755785184107142,
+            "BM25Plus": 0.01782608695652177
+        }
+    },
+    {
+        "query": "azpoicvsdu imut tull",
+        "rate": {
+            "BM25L": 0.016341226976873013,
+            "BM25Okapi": 0.016253443526170752,
+            "BM25Plus": 0.016266887234629213
+        }
+    },
+    {
+        "query": "azpoicvsdu wqqn eqlf",
+        "rate": {
+            "BM25L": 0.016565067585475712,
+            "BM25Okapi": 0.01685691531722855,
+            "BM25Plus": 0.01671974522292996
+        }
+    },
+    {
+        "query": "azpoicvsdu thagemnd eagle",
+        "rate": {
+            "BM25L": 0.016195443315948355,
+            "BM25Okapi": 0.01599671862182117,
+            "BM25Plus": 0.015998906057705486
+        }
+    },
+    {
+        "query": "azpoicvsdu abjqot anoq",
+        "rate": {
+            "BM25L": 0.018033292231812603,
+            "BM25Okapi": 0.017591750075826473,
+            "BM25Plus": 0.018103048120068133
+        }
+    },
+    {
+        "query": "azpoicvsdu qxogeq mewuns",
+        "rate": {
+            "BM25L": 0.01640635253970335,
+            "BM25Okapi": 0.015854450942170195,
+            "BM25Plus": 0.016152142764100597
+        }
+    },
+    {
+        "query": "azpoicvsdu emud nqushbagr",
+        "rate": {
+            "BM25L": 0.016860465116279033,
+            "BM25Okapi": 0.016838438089708196,
+            "BM25Plus": 0.01686536783948822
+        }
+    },
+    {
+        "query": "azpoicvsdu thmt anlk",
+        "rate": {
+            "BM25L": 0.017660683265778854,
+            "BM25Okapi": 0.01745708466686069,
+            "BM25Plus": 0.01698994761432815
+        }
+    },
+    {
+        "query": "azpoicvsdu qxoqpt ourogyetmnoq",
+        "rate": {
+            "BM25L": 0.016750864131879872,
+            "BM25Okapi": 0.01674641148325362,
+            "BM25Plus": 0.016757547546216278
+        }
+    },
+    {
+        "query": "azpoicvsdu yqntuan fmyulk",
+        "rate": {
+            "BM25L": 0.015570260801868407,
+            "BM25Okapi": 0.015480681670352547,
+            "BM25Plus": 0.015478668054110356
+        }
+    },
+    {
+        "query": "azpoicvsdu dqmth luwq",
+        "rate": {
+            "BM25L": 0.01983143282102129,
+            "BM25Okapi": 0.019785655399835123,
+            "BM25Plus": 0.019857686579513478
+        }
+    },
+    {
+        "query": "azpoicvsdu cguqtlk oagreq",
+        "rate": {
+            "BM25L": 0.020155826558265533,
+            "BM25Okapi": 0.01955117307038423,
+            "BM25Plus": 0.019279553526128868
+        }
+    },
+    {
+        "query": "azpoicvsdu yanqk frqq",
+        "rate": {
+            "BM25L": 0.017530827514485203,
+            "BM25Okapi": 0.01746268656716421,
+            "BM25Plus": 0.017755893763055752
+        }
+    },
+    {
+        "query": "azpoicvsdu fagr kqmre",
+        "rate": {
+            "BM25L": 0.01984062449178725,
+            "BM25Okapi": 0.02013752455795681,
+            "BM25Plus": 0.020177165354330673
+        }
+    },
+    {
+        "query": "azpoicvsdu bqfarq bqlai",
+        "rate": {
+            "BM25L": 0.01812642802741815,
+            "BM25Okapi": 0.018120907568143774,
+            "BM25Plus": 0.01812918951858622
+        }
+    },
+    {
+        "query": "azpoicvsdu yusht mlyaet",
+        "rate": {
+            "BM25L": 0.018504474442590624,
+            "BM25Okapi": 0.02048634243837444,
+            "BM25Plus": 0.020206998521439146
+        }
+    },
+    {
+        "query": "azpoicvsdu nmetmeum phulupavnm",
+        "rate": {
+            "BM25L": 0.01577858251422659,
+            "BM25Okapi": 0.015928515928515963,
+            "BM25Plus": 0.015815400570391547
+        }
+    },
+    {
+        "query": "azpoicvsdu hanagr tmlwuns",
+        "rate": {
+            "BM25L": 0.01869445295740113,
+            "BM25Okapi": 0.018334606569900713,
+            "BM25Plus": 0.018862137708940296
+        }
+    },
+    {
+        "query": "azpoicvsdu prunoq",
+        "rate": {
+            "BM25L": 0.016417709594940155,
+            "BM25Okapi": 0.016386836803223614,
+            "BM25Plus": 0.016415500538213168
+        }
+    },
+    {
+        "query": "azpoicvsdu mooqpt thqeq",
+        "rate": {
+            "BM25L": 0.0197590361445783,
+            "BM25Okapi": 0.019961051606621205,
+            "BM25Plus": 0.019951338199513335
+        }
+    },
+    {
+        "query": "azpoicvsdu qnqyuqe aoomeuanmllk",
+        "rate": {
+            "BM25L": 0.016273617432078336,
+            "BM25Okapi": 0.016402481047553374,
+            "BM25Plus": 0.016266887234629213
+        }
+    },
+    {
+        "query": "azpoicvsdu eqrvuoq taaw",
+        "rate": {
+            "BM25L": 0.01713462922966158,
+            "BM25Okapi": 0.017174753112924046,
+            "BM25Plus": 0.01703163017031628
+        }
+    },
+    {
+        "query": "azpoicvsdu etull oaneudqrmblq",
+        "rate": {
+            "BM25L": 0.015988156920799357,
+            "BM25Okapi": 0.01622897609914431,
+            "BM25Plus": 0.016093311678724298
+        }
+    },
+    {
+        "query": "azpoicvsdu agsht imutuns",
+        "rate": {
+            "BM25L": 0.017368347922745553,
+            "BM25Okapi": 0.01736593498193939,
+            "BM25Plus": 0.017392514261861725
+        }
+    },
+    {
+        "query": "azpoicvsdu saad dqml",
+        "rate": {
+            "BM25L": 0.03382949932341006,
+            "BM25Okapi": 0.02931228861330326,
+            "BM25Plus": 0.04207119741100329
+        }
+    },
+    {
+        "query": "azpoicvsdu plqmeq lqmvq",
+        "rate": {
+            "BM25L": 0.01890329635994381,
+            "BM25Okapi": 0.019266917293233043,
+            "BM25Plus": 0.019131252940254084
+        }
+    },
+    {
+        "query": "azpoicvsdu dmrq qvqn",
+        "rate": {
+            "BM25L": 0.016428880242109867,
+            "BM25Okapi": 0.01627327371353171,
+            "BM25Plus": 0.016440726853187204
+        }
+    },
+    {
+        "query": "azpoicvsdu iuth srqmt",
+        "rate": {
+            "BM25L": 0.021715913136347464,
+            "BM25Okapi": 0.02188733405095089,
+            "BM25Plus": 0.020538720538720523
+        }
+    },
+    {
+        "query": "azpoicvsdu emke eqnt",
+        "rate": {
+            "BM25L": 0.019961977186311763,
+            "BM25Okapi": 0.0201427438540841,
+            "BM25Plus": 0.020149135332381385
+        }
+    },
+    {
+        "query": "azpoicvsdu eqttlqd huyeqlf",
+        "rate": {
+            "BM25L": 0.019895629484670607,
+            "BM25Okapi": 0.019876181166503692,
+            "BM25Plus": 0.019703631330402205
+        }
+    },
+    {
+        "query": "azpoicvsdu qmek ohmur",
+        "rate": {
+            "BM25L": 0.01521840148698883,
+            "BM25Okapi": 0.015245690160666125,
+            "BM25Plus": 0.015234970116020152
+        }
+    },
+    {
+        "query": "azpoicvsdu hmvq",
+        "rate": {
+            "BM25L": 0.01612684645615936,
+            "BM25Okapi": 0.016150922909880516,
+            "BM25Plus": 0.01614215952251763
+        }
+    },
+    {
+        "query": "azpoicvsdu fand mnathqr",
+        "rate": {
+            "BM25L": 0.018396443354284808,
+            "BM25Okapi": 0.018705918429929524,
+            "BM25Plus": 0.018404907975460127
+        }
+    },
+    {
+        "query": "azpoicvsdu yanthe eiutzqrlmnd",
+        "rate": {
+            "BM25L": 0.01544962366301339,
+            "BM25Okapi": 0.015692997494395344,
+            "BM25Plus": 0.015659955257270708
+        }
+    },
+    {
+        "query": "azpoicvsdu bqttqr lqnsth",
+        "rate": {
+            "BM25L": 0.02084690553745927,
+            "BM25Okapi": 0.020031796502384736,
+            "BM25Plus": 0.019961977186311763
+        }
+    },
+    {
+        "query": "azpoicvsdu hmvq tmwqn",
+        "rate": {
+            "BM25L": 0.02039757994814173,
+            "BM25Okapi": 0.019775873434410007,
+            "BM25Plus": 0.01964958244637305
+        }
+    },
+    {
+        "query": "azpoicvsdu hudq egrq",
+        "rate": {
+            "BM25L": 0.017502573907927643,
+            "BM25Okapi": 0.017662643508978504,
+            "BM25Plus": 0.017660044150110354
+        }
+    },
+    {
+        "query": "azpoicvsdu mdqlmudm mslmkm",
+        "rate": {
+            "BM25L": 0.0190691661279897,
+            "BM25Okapi": 0.019117647058823573,
+            "BM25Plus": 0.019130150425114456
+        }
+    },
+    {
+        "query": "azpoicvsdu mbrgptlk hmrdlk",
+        "rate": {
+            "BM25L": 0.017056041278486478,
+            "BM25Okapi": 0.01693212799540822,
+            "BM25Plus": 0.016927270119064697
+        }
+    },
+    {
+        "query": "azpoicvsdu kqmr luvq",
+        "rate": {
+            "BM25L": 0.016318628128889512,
+            "BM25Okapi": 0.016359637063513843,
+            "BM25Plus": 0.016364136413641317
+        }
+    },
+    {
+        "query": "azpoicvsdu qvudqntlk mnxuage",
+        "rate": {
+            "BM25L": 0.019107282693813676,
+            "BM25Okapi": 0.019224757736792775,
+            "BM25Plus": 0.01921874999999995
+        }
+    },
+    {
+        "query": "azpoicvsdu yund tqlluns",
+        "rate": {
+            "BM25L": 0.016510105323085722,
+            "BM25Okapi": 0.016607523066004215,
+            "BM25Plus": 0.01661223910265508
+        }
+    },
+    {
+        "query": "azpoicvsdu thqrq nqmrlk",
+        "rate": {
+            "BM25L": 0.01772441395082902,
+            "BM25Okapi": 0.01760613374982256,
+            "BM25Plus": 0.018032313906520492
+        }
+    },
+    {
+        "query": "azpoicvsdu fmot egoh",
+        "rate": {
+            "BM25L": 0.02254129998456078,
+            "BM25Okapi": 0.02475330322796454,
+            "BM25Plus": 0.024430505117200352
+        }
+    },
+    {
+        "query": "azpoicvsdu lgssmsq thagsh",
+        "rate": {
+            "BM25L": 0.018081520073551904,
+            "BM25Okapi": 0.018084291187739465,
+            "BM25Plus": 0.018231959552627575
+        }
+    },
+    {
+        "query": "azpoicvsdu fagnd thqyeqlvqe",
+        "rate": {
+            "BM25L": 0.01718907987866536,
+            "BM25Okapi": 0.01718659734257655,
+            "BM25Plus": 0.017054487642722882
+        }
+    },
+    {
+        "query": "azpoicvsdu ihmt",
+        "rate": {
+            "BM25L": 0.01770592763664358,
+            "BM25Okapi": 0.017716838699738058,
+            "BM25Plus": 0.017700477143296922
+        }
+    },
+    {
+        "query": "azpoicvsdu qvqr eagl",
+        "rate": {
+            "BM25L": 0.018263323924954333,
+            "BM25Okapi": 0.01755233494363928,
+            "BM25Plus": 0.01802533290029229
+        }
+    },
+    {
+        "query": "azpoicvsdu hqusht vqrk",
+        "rate": {
+            "BM25L": 0.017499650006999823,
+            "BM25Okapi": 0.017494751574527623,
+            "BM25Plus": 0.017494751574527623
+        }
+    },
+    {
+        "query": "azpoicvsdu nqmrqr tain",
+        "rate": {
+            "BM25L": 0.013878469617404354,
+            "BM25Okapi": 0.014232209737827684,
+            "BM25Plus": 0.014230433154412636
+        }
+    },
+    {
+        "query": "azpoicvsdu ogruaeutk wnaiuns",
+        "rate": {
+            "BM25L": 0.01692183722804186,
+            "BM25Okapi": 0.016792047286405154,
+            "BM25Plus": 0.016792047286405154
+        }
+    },
+    {
+        "query": "azpoicvsdu egooqee lufq",
+        "rate": {
+            "BM25L": 0.018361363987039026,
+            "BM25Okapi": 0.01860965856659491,
+            "BM25Plus": 0.018763457397723782
+        }
+    },
+    {
+        "query": "azpoicvsdu yanth lqft",
+        "rate": {
+            "BM25L": 0.01924897443988638,
+            "BM25Okapi": 0.019242902208201906,
+            "BM25Plus": 0.019227738376674575
+        }
+    },
+    {
+        "query": "azpoicvsdu bqqn ablusqd",
+        "rate": {
+            "BM25L": 0.016609817588610465,
+            "BM25Okapi": 0.016607354685646447,
+            "BM25Plus": 0.016738260998370613
+        }
+    },
+    {
+        "query": "azpoicvsdu pmrt taimrde",
+        "rate": {
+            "BM25L": 0.01795719005889962,
+            "BM25Okapi": 0.017388825541619135,
+            "BM25Plus": 0.017393783860849776
+        }
+    },
+    {
+        "query": "azpoicvsdu qvqrkanq wnqi",
+        "rate": {
+            "BM25L": 0.022663942039754748,
+            "BM25Okapi": 0.023727516264829718,
+            "BM25Plus": 0.02345985123021166
+        }
+    },
+    {
+        "query": "azpoicvsdu trmun iqrq",
+        "rate": {
+            "BM25L": 0.017052721330112264,
+            "BM25Okapi": 0.01711351968054764,
+            "BM25Plus": 0.017052721330112264
+        }
+    },
+    {
+        "query": "azpoicvsdu thragsh rgeeum",
+        "rate": {
+            "BM25L": 0.02137643378519294,
+            "BM25Okapi": 0.021462222997731595,
+            "BM25Plus": 0.02130260171119258
+        }
+    },
+    {
+        "query": "azpoicvsdu lans oald",
+        "rate": {
+            "BM25L": 0.023076923076923106,
+            "BM25Okapi": 0.02371541501976282,
+            "BM25Plus": 0.023622047244094446
+        }
+    },
+    {
+        "query": "azpoicvsdu kagns fqllaie",
+        "rate": {
+            "BM25L": 0.01823802163833077,
+            "BM25Okapi": 0.018226753166512233,
+            "BM25Plus": 0.018378378378378413
+        }
+    },
+    {
+        "query": "azpoicvsdu ymluouage eyulq",
+        "rate": {
+            "BM25L": 0.0169300225733634,
+            "BM25Okapi": 0.016910935738444155,
+            "BM25Plus": 0.01690617075232459
+        }
+    },
+    {
+        "query": "azpoicvsdu rqsmrdqd faalueh",
+        "rate": {
+            "BM25L": 0.01444274028629855,
+            "BM25Okapi": 0.01456124664708136,
+            "BM25Plus": 0.014572414674677181
+        }
+    },
+    {
+        "query": "azpoicvsdu sgqet epqmw",
+        "rate": {
+            "BM25L": 0.01978099611444717,
+            "BM25Okapi": 0.019845451352300647,
+            "BM25Plus": 0.0198384831460674
+        }
+    },
+    {
+        "query": "azpoicvsdu paeutuan hgebmnd",
+        "rate": {
+            "BM25L": 0.017864860971041674,
+            "BM25Okapi": 0.017864860971041674,
+            "BM25Plus": 0.01785457163426929
+        }
+    },
+    {
+        "query": "azpoicvsdu fartk laawqd",
+        "rate": {
+            "BM25L": 0.022647113421199183,
+            "BM25Okapi": 0.02233296419342934,
+            "BM25Plus": 0.02216475803472484
+        }
+    },
+    {
+        "query": "azpoicvsdu duqd oagplq",
+        "rate": {
+            "BM25L": 0.02139394952365037,
+            "BM25Okapi": 0.021265907568653764,
+            "BM25Plus": 0.021262347229198064
+        }
+    },
+    {
+        "query": "azpoicvsdu aftqn ehai",
+        "rate": {
+            "BM25L": 0.023684210526315752,
+            "BM25Okapi": 0.024638247946812686,
+            "BM25Plus": 0.024623803009575895
+        }
+    },
+    {
+        "query": "azpoicvsdu srqmtqet plqmegrq",
+        "rate": {
+            "BM25L": 0.0176116838487973,
+            "BM25Okapi": 0.01760412194074712,
+            "BM25Plus": 0.017606641855138827
+        }
+    },
+    {
+        "query": "azpoicvsdu mddqd mddrqeeuns",
+        "rate": {
+            "BM25L": 0.026123936816524918,
+            "BM25Okapi": 0.026267562614538775,
+            "BM25Plus": 0.02625686952981887
+        }
+    },
+    {
+        "query": "azpoicvsdu hayq fqqluns",
+        "rate": {
+            "BM25L": 0.021546961325966896,
+            "BM25Okapi": 0.021854808057772734,
+            "BM25Plus": 0.021372328458942658
+        }
+    },
+    {
+        "query": "azpoicvsdu drmiuns raay",
+        "rate": {
+            "BM25L": 0.020549158547387036,
+            "BM25Okapi": 0.020310844224655566,
+            "BM25Plus": 0.02030367231638419
+        }
+    },
+    {
+        "query": "azpoicvsdu fmnok rusht",
+        "rate": {
+            "BM25L": 0.023204640928185638,
+            "BM25Okapi": 0.023905996758508907,
+            "BM25Plus": 0.02408163265306118
+        }
+    },
+    {
+        "query": "azpoicvsdu smvq ihalq",
+        "rate": {
+            "BM25L": 0.023224043715846965,
+            "BM25Okapi": 0.023492560689115094,
+            "BM25Plus": 0.024242424242424288
+        }
+    },
+    {
+        "query": "azpoicvsdu bmow bqeudqe",
+        "rate": {
+            "BM25L": 0.021525679758308103,
+            "BM25Okapi": 0.020471577408152086,
+            "BM25Plus": 0.021083780284815945
+        }
+    },
+    {
+        "query": "azpoicvsdu eart pmeeuanmtq",
+        "rate": {
+            "BM25L": 0.019825918762088945,
+            "BM25Okapi": 0.019822723609991932,
+            "BM25Plus": 0.019983883964544757
+        }
+    },
+    {
+        "query": "azpoicvsdu thqur oayplqxuane",
+        "rate": {
+            "BM25L": 0.02102637205987168,
+            "BM25Okapi": 0.021030119408305126,
+            "BM25Plus": 0.021022626046677373
+        }
+    },
+    {
+        "query": "azpoicvsdu appaeutq qmoh",
+        "rate": {
+            "BM25L": 0.01706388379636159,
+            "BM25Okapi": 0.017138810198300325,
+            "BM25Plus": 0.017100056529112506
+        }
+    },
+    {
+        "query": "azpoicvsdu iagld gndagbtqdlk",
+        "rate": {
+            "BM25L": 0.02008704385671245,
+            "BM25Okapi": 0.02022926500337152,
+            "BM25Plus": 0.020056827678422207
+        }
+    },
+    {
+        "query": "azpoicvsdu mppqmr luetqn",
+        "rate": {
+            "BM25L": 0.01889955799420817,
+            "BM25Okapi": 0.018905625576390972,
+            "BM25Plus": 0.018744285278878392
+        }
+    },
+    {
+        "query": "azpoicvsdu pewaff eqorqtlk",
+        "rate": {
+            "BM25L": 0.013419865801342024,
+            "BM25Okapi": 0.013415438750824737,
+            "BM25Plus": 0.01341838979322485
+        }
+    },
+    {
+        "query": "azpoicvsdu apqnqd daar",
+        "rate": {
+            "BM25L": 0.01702190645352275,
+            "BM25Okapi": 0.017159763313609466,
+            "BM25Plus": 0.01716738197424894
+        }
+    },
+    {
+        "query": "azpoicvsdu luttlq jagrnqk",
+        "rate": {
+            "BM25L": 0.022567798217333568,
+            "BM25Okapi": 0.0224036453389026,
+            "BM25Plus": 0.022407899734143588
+        }
+    },
+    {
+        "query": "azpoicvsdu eymrt oamt",
+        "rate": {
+            "BM25L": 0.013269700849726451,
+            "BM25Okapi": 0.013400139827546065,
+            "BM25Plus": 0.013398578585576137
+        }
+    },
+    {
+        "query": "azpoicvsdu pavqrtk oruyq",
+        "rate": {
+            "BM25L": 0.014522554941524213,
+            "BM25Okapi": 0.014768203415949643,
+            "BM25Plus": 0.014779591312170659
+        }
+    },
+    {
+        "query": "azpoicvsdu lmet lunq",
+        "rate": {
+            "BM25L": 0.01709522463972879,
+            "BM25Okapi": 0.017078334509527116,
+            "BM25Plus": 0.017078334509527116
+        }
+    },
+    {
+        "query": "azpoicvsdu qyplakqd ihmt",
+        "rate": {
+            "BM25L": 0.01920614596670933,
+            "BM25Okapi": 0.01919692849144139,
+            "BM25Plus": 0.019369297262686103
+        }
+    },
+    {
+        "query": "azpoicvsdu etmtq qxoutqyqnt",
+        "rate": {
+            "BM25L": 0.018948365703458037,
+            "BM25Okapi": 0.018595041322314043,
+            "BM25Plus": 0.018961121733588326
+        }
+    },
+    {
+        "query": "azpoicvsdu qvqntgmllk omyq",
+        "rate": {
+            "BM25L": 0.022450888681010306,
+            "BM25Okapi": 0.022799476733320834,
+            "BM25Plus": 0.02280373831775706
+        }
+    },
+    {
+        "query": "azpoicvsdu dqoudqdlk prqttk",
+        "rate": {
+            "BM25L": 0.01668584579976984,
+            "BM25Okapi": 0.01652298850574707,
+            "BM25Plus": 0.01666427237465884
+        }
+    },
+    {
+        "query": "azpoicvsdu hmvuns nathuns",
+        "rate": {
+            "BM25L": 0.026986825329366804,
+            "BM25Okapi": 0.029892573563755298,
+            "BM25Plus": 0.027288354103996548
+        }
+    },
+    {
+        "query": "azpoicvsdu iufq thrqq",
+        "rate": {
+            "BM25L": 0.022399111440207342,
+            "BM25Okapi": 0.02426308401844801,
+            "BM25Plus": 0.024215958713775354
+        }
+    },
+    {
+        "query": "azpoicvsdu oantmunqd trmvqlluns",
+        "rate": {
+            "BM25L": 0.014568026349125907,
+            "BM25Okapi": 0.014560648265383613,
+            "BM25Plus": 0.014564336372847042
+        }
+    },
+    {
+        "query": "azpoicvsdu wnailqdsq iarld",
+        "rate": {
+            "BM25L": 0.018408736349453947,
+            "BM25Okapi": 0.018903591682419618,
+            "BM25Plus": 0.018909549322407848
+        }
+    },
+    {
+        "query": "azpoicvsdu kqetqrdmk wund",
+        "rate": {
+            "BM25L": 0.021276595744680882,
+            "BM25Okapi": 0.021854912764003642,
+            "BM25Plus": 0.02170344701805582
+        }
+    },
+    {
+        "query": "azpoicvsdu frqcgqntlk oqrtmun",
+        "rate": {
+            "BM25L": 0.021649668992664184,
+            "BM25Okapi": 0.02184422560429722,
+            "BM25Plus": 0.021832498210450968
+        }
+    },
+    {
+        "query": "azpoicvsdu tald imlwuns",
+        "rate": {
+            "BM25L": 0.023674837628326006,
+            "BM25Okapi": 0.023610530714584188,
+            "BM25Plus": 0.023625339744929974
+        }
+    },
+    {
+        "query": "azpoicvsdu nqvqr thagsht",
+        "rate": {
+            "BM25L": 0.019987309644670104,
+            "BM25Okapi": 0.02513855898653994,
+            "BM25Plus": 0.025349301397205593
+        }
+    },
+    {
+        "query": "azpoicvsdu trgth qxolmuyqd",
+        "rate": {
+            "BM25L": 0.018091168091168064,
+            "BM25Okapi": 0.018032088598608498,
+            "BM25Plus": 0.018052594171997116
+        }
+    },
+    {
+        "query": "azpoicvsdu mbavq yuddlq",
+        "rate": {
+            "BM25L": 0.016009852216748777,
+            "BM25Okapi": 0.016362148895554984,
+            "BM25Plus": 0.016357688113413316
+        }
+    },
+    {
+        "query": "azpoicvsdu emud",
+        "rate": {
+            "BM25L": 0.01933514246947088,
+            "BM25Okapi": 0.01951136749236515,
+            "BM25Plus": 0.01933514246947088
+        }
+    },
+    {
+        "query": "azpoicvsdu dqmr paeeublq",
+        "rate": {
+            "BM25L": 0.025796661608497695,
+            "BM25Okapi": 0.024118738404452666,
+            "BM25Plus": 0.025112685125563416
+        }
+    },
+    {
+        "query": "azpoicvsdu dmgshtqre ymrruqd",
+        "rate": {
+            "BM25L": 0.01660568533633544,
+            "BM25Okapi": 0.016631430584919005,
+            "BM25Plus": 0.016633775021144603
+        }
+    },
+    {
+        "query": "azpoicvsdu hmlf ragblqe",
+        "rate": {
+            "BM25L": 0.026071139854486614,
+            "BM25Okapi": 0.026826248452331836,
+            "BM25Plus": 0.026959767731231876
+        }
+    },
+    {
+        "query": "azpoicvsdu hqrq rqymrwqd",
+        "rate": {
+            "BM25L": 0.023007856341189625,
+            "BM25Okapi": 0.025071341214839005,
+            "BM25Plus": 0.02333965844402275
+        }
+    },
+    {
+        "query": "azpoicvsdu thqn lmgshqd",
+        "rate": {
+            "BM25L": 0.0209740490579452,
+            "BM25Okapi": 0.021269115837581287,
+            "BM25Plus": 0.020613107822410104
+        }
+    },
+    {
+        "query": "azpoicvsdu rqlmtuvq yunq",
+        "rate": {
+            "BM25L": 0.012421639192013001,
+            "BM25Okapi": 0.012559599953482992,
+            "BM25Plus": 0.012553760316168727
+        }
+    },
+    {
+        "query": "azpoicvsdu oqrtmunlk mnsqr",
+        "rate": {
+            "BM25L": 0.02087719298245616,
+            "BM25Okapi": 0.020807833537331732,
+            "BM25Plus": 0.020982689281342837
+        }
+    },
+    {
+        "query": "azpoicvsdu iundaie eayq",
+        "rate": {
+            "BM25L": 0.020666666666666722,
+            "BM25Okapi": 0.020666666666666722,
+            "BM25Plus": 0.020694259012016047
+        }
+    },
+    {
+        "query": "azpoicvsdu oaal udqm",
+        "rate": {
+            "BM25L": 0.021712697585548058,
+            "BM25Okapi": 0.021464427903756245,
+            "BM25Plus": 0.021438450899031847
+        }
+    },
+    {
+        "query": "azpoicvsdu paeeqeeqd naeq",
+        "rate": {
+            "BM25L": 0.014049484023374359,
+            "BM25Okapi": 0.014040755467196853,
+            "BM25Plus": 0.014044245587869764
+        }
+    },
+    {
+        "query": "azpoicvsdu ihqrq sauns",
+        "rate": {
+            "BM25L": 0.02121771217712176,
+            "BM25Okapi": 0.020205539104685588,
+            "BM25Plus": 0.022852639873916503
+        }
+    },
+    {
+        "query": "azpoicvsdu luvqd hageq",
+        "rate": {
+            "BM25L": 0.02527517325723605,
+            "BM25Okapi": 0.024671052631578982,
+            "BM25Plus": 0.024545998802634195
+        }
+    },
+    {
+        "query": "azpoicvsdu qleq mewqd",
+        "rate": {
+            "BM25L": 0.02544689800210309,
+            "BM25Okapi": 0.025729729729729756,
+            "BM25Plus": 0.025169204737732653
+        }
+    },
+    {
+        "query": "azpoicvsdu pqtqrebgrs rmulimk",
+        "rate": {
+            "BM25L": 0.017402749341912882,
+            "BM25Okapi": 0.017402749341912882,
+            "BM25Plus": 0.017402749341912882
+        }
+    },
+    {
+        "query": "azpoicvsdu yqmne ymdq",
+        "rate": {
+            "BM25L": 0.02359594383775354,
+            "BM25Okapi": 0.02393669634025719,
+            "BM25Plus": 0.023563777994157764
+        }
+    },
+    {
+        "query": "azpoicvsdu mimk fray",
+        "rate": {
+            "BM25L": 0.024116347569955843,
+            "BM25Okapi": 0.023639362286970833,
+            "BM25Plus": 0.024602573807721462
+        }
+    },
+    {
+        "query": "azpoicvsdu huetark unduvudgml",
+        "rate": {
+            "BM25L": 0.017765733212887658,
+            "BM25Okapi": 0.017760385310054194,
+            "BM25Plus": 0.017763058858949243
+        }
+    },
+    {
+        "query": "azpoicvsdu iratq sqnqrml",
+        "rate": {
+            "BM25L": 0.02486464808502109,
+            "BM25Okapi": 0.024337585868498546,
+            "BM25Plus": 0.02328244274809166
+        }
+    },
+    {
+        "query": "azpoicvsdu yathqr oanfagndqd",
+        "rate": {
+            "BM25L": 0.021061946902654838,
+            "BM25Okapi": 0.021505376344086002,
+            "BM25Plus": 0.021505376344086002
+        }
+    },
+    {
+        "query": "azpoicvsdu sqnqrmllk mppqmrqd",
+        "rate": {
+            "BM25L": 0.016926503340757293,
+            "BM25Okapi": 0.017090206568583732,
+            "BM25Plus": 0.017095287646796464
+        }
+    },
+    {
+        "query": "azpoicvsdu mppqmrmnoq eputq",
+        "rate": {
+            "BM25L": 0.017801513128615887,
+            "BM25Okapi": 0.01833483618875864,
+            "BM25Plus": 0.018260739410267957
+        }
+    },
+    {
+        "query": "azpoicvsdu pqaplq oagld",
+        "rate": {
+            "BM25L": 0.019119828580847154,
+            "BM25Okapi": 0.019902175746331574,
+            "BM25Plus": 0.019506300707750723
+        }
+    },
+    {
+        "query": "azpoicvsdu rgbbuns hmnde",
+        "rate": {
+            "BM25L": 0.02012855209742892,
+            "BM25Okapi": 0.020145589977992207,
+            "BM25Plus": 0.020142180094786744
+        }
+    },
+    {
+        "query": "azpoicvsdu hmrd laaw",
+        "rate": {
+            "BM25L": 0.02096627164995446,
+            "BM25Okapi": 0.020931925737167845,
+            "BM25Plus": 0.020935736391771376
+        }
+    },
+    {
+        "query": "azpoicvsdu hageqe plmoq",
+        "rate": {
+            "BM25L": 0.02500512400081989,
+            "BM25Okapi": 0.02493867538838923,
+            "BM25Plus": 0.024918300653594794
+        }
+    },
+    {
+        "query": "azpoicvsdu mttqntuan eaouqtk",
+        "rate": {
+            "BM25L": 0.017485428809325576,
+            "BM25Okapi": 0.01718165442704722,
+            "BM25Plus": 0.01718165442704722
+        }
+    },
+    {
+        "query": "azpoicvsdu vueutare mlthagsh",
+        "rate": {
+            "BM25L": 0.017626827171109194,
+            "BM25Okapi": 0.017813532538428434,
+            "BM25Plus": 0.01781097385808672
+        }
+    },
+    {
+        "query": "azpoicvsdu mbramd thurd",
+        "rate": {
+            "BM25L": 0.014043932301044282,
+            "BM25Okapi": 0.014033825116948506,
+            "BM25Plus": 0.014035508637236127
+        }
+    },
+    {
+        "query": "azpoicvsdu dqvul tmwq",
+        "rate": {
+            "BM25L": 0.022294632138569748,
+            "BM25Okapi": 0.022317596566523656,
+            "BM25Plus": 0.022321428571428603
+        }
+    },
+    {
+        "query": "azpoicvsdu saadnqee srmouage",
+        "rate": {
+            "BM25L": 0.017556801416346968,
+            "BM25Okapi": 0.017696504940274305,
+            "BM25Plus": 0.017699115044247815
+        }
+    },
+    {
+        "query": "azpoicvsdu hush iqll",
+        "rate": {
+            "BM25L": 0.02227369921596578,
+            "BM25Okapi": 0.022459699329831606,
+            "BM25Plus": 0.021851128086693872
+        }
+    },
+    {
+        "query": "azpoicvsdu eaan hald",
+        "rate": {
+            "BM25L": 0.024932354078082697,
+            "BM25Okapi": 0.025793650793650813,
+            "BM25Plus": 0.02550919517500494
+        }
+    },
+    {
+        "query": "azpoicvsdu rqml nqqd",
+        "rate": {
+            "BM25L": 0.019898043085018857,
+            "BM25Okapi": 0.020036130727541512,
+            "BM25Plus": 0.020029551797734357
+        }
+    },
+    {
+        "query": "azpoicvsdu unvutq euyplk",
+        "rate": {
+            "BM25L": 0.018170426065162948,
+            "BM25Okapi": 0.018329938900203624,
+            "BM25Plus": 0.018324197337509784
+        }
+    },
+    {
+        "query": "azpoicvsdu qmrlk ymrrumsq",
+        "rate": {
+            "BM25L": 0.01598797485651815,
+            "BM25Okapi": 0.01620370370370372,
+            "BM25Plus": 0.016065350578624904
+        }
+    },
+    {
+        "query": "azpoicvsdu trgq qnagsh",
+        "rate": {
+            "BM25L": 0.02779630865021121,
+            "BM25Okapi": 0.028768699654775576,
+            "BM25Plus": 0.02893890675241162
+        }
+    },
+    {
+        "query": "azpoicvsdu haiqvqr oantungqd",
+        "rate": {
+            "BM25L": 0.024701356549908904,
+            "BM25Okapi": 0.024332810047095754,
+            "BM25Plus": 0.025366054856671427
+        }
+    },
+    {
+        "query": "azpoicvsdu etmrt oanvqremtuan",
+        "rate": {
+            "BM25L": 0.017163759144625756,
+            "BM25Okapi": 0.016920473773265665,
+            "BM25Plus": 0.016920473773265665
+        }
+    },
+    {
+        "query": "azpoicvsdu olqrw thagshtfgllk",
+        "rate": {
+            "BM25L": 0.013946519133241075,
+            "BM25Okapi": 0.01394812680115276,
+            "BM25Plus": 0.013949734839750927
+        }
+    },
+    {
+        "query": "azpoicvsdu tagohqd flaar",
+        "rate": {
+            "BM25L": 0.014512227895726926,
+            "BM25Okapi": 0.014496644295302064,
+            "BM25Plus": 0.014494698698161335
+        }
+    },
+    {
+        "query": "azpoicvsdu hmur eymll",
+        "rate": {
+            "BM25L": 0.01505524861878449,
+            "BM25Okapi": 0.015116119279923068,
+            "BM25Plus": 0.015011706376532152
+        }
+    },
+    {
+        "query": "azpoicvsdu fqllai mbagt",
+        "rate": {
+            "BM25L": 0.02045619116582187,
+            "BM25Okapi": 0.018656716417910446,
+            "BM25Plus": 0.020545454545454533
+        }
+    },
+    {
+        "query": "azpoicvsdu anqe untqrrgptqd",
+        "rate": {
+            "BM25L": 0.016424596172118888,
+            "BM25Okapi": 0.016573835076755916,
+            "BM25Plus": 0.016567083107007052
+        }
+    },
+    {
+        "query": "azpoicvsdu rmthqr egddqnlk",
+        "rate": {
+            "BM25L": 0.023247023247023213,
+            "BM25Okapi": 0.02230281051677241,
+            "BM25Plus": 0.024788391777509022
+        }
+    },
+    {
+        "query": "azpoicvsdu fmoq epqouml",
+        "rate": {
+            "BM25L": 0.02090789225842904,
+            "BM25Okapi": 0.021276595744680882,
+            "BM25Plus": 0.021252796420581643
+        }
+    },
+    {
+        "query": "azpoicvsdu rmns bqll",
+        "rate": {
+            "BM25L": 0.016089504528502885,
+            "BM25Okapi": 0.016180540770704743,
+            "BM25Plus": 0.01618226338762907
+        }
+    },
+    {
+        "query": "azpoicvsdu oayqe unta",
+        "rate": {
+            "BM25L": 0.014009064688916384,
+            "BM25Okapi": 0.013986013986013957,
+            "BM25Plus": 0.014255765199161385
+        }
+    },
+    {
+        "query": "azpoicvsdu untradgoq ykeqlf",
+        "rate": {
+            "BM25L": 0.022678396871945283,
+            "BM25Okapi": 0.022261277094317466,
+            "BM25Plus": 0.022265624999999956
+        }
+    },
+    {
+        "query": "azpoicvsdu ehmrp ehmll",
+        "rate": {
+            "BM25L": 0.024111156518185517,
+            "BM25Okapi": 0.024400246052901364,
+            "BM25Plus": 0.024390243902439046
+        }
+    },
+    {
+        "query": "azpoicvsdu hgymn bqunse",
+        "rate": {
+            "BM25L": 0.012852552659764371,
+            "BM25Okapi": 0.012970014278914754,
+            "BM25Plus": 0.012971557776984444
+        }
+    },
+    {
+        "query": "azpoicvsdu furet yqqtuns",
+        "rate": {
+            "BM25L": 0.020604395604395642,
+            "BM25Okapi": 0.020629190304280565,
+            "BM25Plus": 0.02052077944473185
+        }
+    },
+    {
+        "query": "azpoicvsdu thqk wnain",
+        "rate": {
+            "BM25L": 0.020840569642236906,
+            "BM25Okapi": 0.020717270194986037,
+            "BM25Plus": 0.021307594245128403
+        }
+    },
+    {
+        "query": "azpoicvsdu rasajun pmrfqn",
+        "rate": {
+            "BM25L": 0.020675396278428626,
+            "BM25Okapi": 0.02069322296947751,
+            "BM25Plus": 0.020696791997240394
+        }
+    },
+    {
+        "query": "azpoicvsdu eiarq hagr",
+        "rate": {
+            "BM25L": 0.015493152579886593,
+            "BM25Okapi": 0.015618521078092584,
+            "BM25Plus": 0.015620680121647745
+        }
+    },
+    {
+        "query": "azpoicvsdu thmn kmrde",
+        "rate": {
+            "BM25L": 0.02416386621859501,
+            "BM25Okapi": 0.02417160236913718,
+            "BM25Plus": 0.02433557476785142
+        }
+    },
+    {
+        "query": "azpoicvsdu lqmet egrprueqd",
+        "rate": {
+            "BM25L": 0.022695320345450853,
+            "BM25Okapi": 0.02302565138355883,
+            "BM25Plus": 0.023184868822452742
+        }
+    },
+    {
+        "query": "azpoicvsdu fuvq iqqwe",
+        "rate": {
+            "BM25L": 0.01665193044503388,
+            "BM25Okapi": 0.01648756072427504,
+            "BM25Plus": 0.01646816644611082
+        }
+    },
+    {
+        "query": "azpoicvsdu nmyq funq",
+        "rate": {
+            "BM25L": 0.017722954771019372,
+            "BM25Okapi": 0.017620524386805725,
+            "BM25Plus": 0.01762300860002819
+        }
+    },
+    {
+        "query": "azpoicvsdu pqrean wnai",
+        "rate": {
+            "BM25L": 0.024066230265691213,
+            "BM25Okapi": 0.025176233635448186,
+            "BM25Plus": 0.023909716908951828
+        }
+    },
+    {
+        "query": "azpoicvsdu fruqnde myans",
+        "rate": {
+            "BM25L": 0.01931150293870698,
+            "BM25Okapi": 0.019584867760294555,
+            "BM25Plus": 0.019575037644303128
+        }
+    },
+    {
+        "query": "azpoicvsdu iarq lmrsq",
+        "rate": {
+            "BM25L": 0.01846569584146529,
+            "BM25Okapi": 0.017878605769230727,
+            "BM25Plus": 0.01788935658448587
+        }
+    },
+    {
+        "query": "azpoicvsdu lmgsh egddqn",
+        "rate": {
+            "BM25L": 0.020613199376407376,
+            "BM25Okapi": 0.021111893033075257,
+            "BM25Plus": 0.021100756110427277
+        }
+    },
+    {
+        "query": "azpoicvsdu cgqetuane bquns",
+        "rate": {
+            "BM25L": 0.02178253766563809,
+            "BM25Okapi": 0.021973997436366965,
+            "BM25Plus": 0.021846888195336867
+        }
+    },
+    {
+        "query": "azpoicvsdu rqdagblqd egepuouan",
+        "rate": {
+            "BM25L": 0.01707085760737026,
+            "BM25Okapi": 0.017080113867425806,
+            "BM25Plus": 0.017073170731707332
+        }
+    },
+    {
+        "query": "azpoicvsdu nquthqr bqmgtk",
+        "rate": {
+            "BM25L": 0.020523594053005856,
+            "BM25Okapi": 0.020648491692208393,
+            "BM25Plus": 0.020638503708481082
+        }
+    },
+    {
+        "query": "azpoicvsdu mimrq hapqe",
+        "rate": {
+            "BM25L": 0.01582236404733417,
+            "BM25Okapi": 0.01579925650557623,
+            "BM25Plus": 0.015801354401805856
+        }
+    },
+    {
+        "query": "azpoicvsdu bgeunqee hagre",
+        "rate": {
+            "BM25L": 0.019469026548672552,
+            "BM25Okapi": 0.019811320754717032,
+            "BM25Plus": 0.01986441746807499
+        }
+    },
+    {
+        "query": "azpoicvsdu egppaeq etrmusht",
+        "rate": {
+            "BM25L": 0.022354425815756307,
+            "BM25Okapi": 0.022620340209916767,
+            "BM25Plus": 0.022756235208447162
+        }
+    },
+    {
+        "query": "azpoicvsdu qxpqotqd ygoh",
+        "rate": {
+            "BM25L": 0.022663942039754748,
+            "BM25Okapi": 0.02372549019607839,
+            "BM25Plus": 0.022647113421199183
+        }
+    },
+    {
+        "query": "azpoicvsdu etmk rqmllk",
+        "rate": {
+            "BM25L": 0.02209744611483422,
+            "BM25Okapi": 0.022074659009332365,
+            "BM25Plus": 0.021840315073397787
+        }
+    },
+    {
+        "query": "azpoicvsdu eqvqrutk rgeeumn",
+        "rate": {
+            "BM25L": 0.01575223601655318,
+            "BM25Okapi": 0.015887850467289688,
+            "BM25Plus": 0.015756442782748015
+        }
+    },
+    {
+        "query": "azpoicvsdu prunoq nuoalmuqvutoh",
+        "rate": {
+            "BM25L": 0.02509852727649864,
+            "BM25Okapi": 0.025000000000000022,
+            "BM25Plus": 0.025153244557176047
+        }
+    },
+    {
+        "query": "azpoicvsdu lavqluqet iaymn",
+        "rate": {
+            "BM25L": 0.020670488101441675,
+            "BM25Okapi": 0.020652551197500868,
+            "BM25Plus": 0.020648967551622377
+        }
+    },
+    {
+        "query": "azpoicvsdu nusht qnturqlk",
+        "rate": {
+            "BM25L": 0.01830663615560646,
+            "BM25Okapi": 0.018126403593198614,
+            "BM25Plus": 0.01815261044176708
+        }
+    },
+    {
+        "query": "azpoicvsdu ymwq qxuetqnoq",
+        "rate": {
+            "BM25L": 0.019712306872669116,
+            "BM25Okapi": 0.019918193135337048,
+            "BM25Plus": 0.019750889679715278
+        }
+    },
+    {
+        "query": "azpoicvsdu flmttqr kagreqlf",
+        "rate": {
+            "BM25L": 0.021826118588577637,
+            "BM25Okapi": 0.021636363636363676,
+            "BM25Plus": 0.021628498727735423
+        }
+    },
+    {
+        "query": "azpoicvsdu qxprqeeuan ihulq",
+        "rate": {
+            "BM25L": 0.0233745825967393,
+            "BM25Okapi": 0.023037051257439045,
+            "BM25Plus": 0.02446546052631582
+        }
+    },
+    {
+        "query": "azpoicvsdu thqy eqqyqd",
+        "rate": {
+            "BM25L": 0.018957345971563955,
+            "BM25Okapi": 0.02212649304875658,
+            "BM25Plus": 0.02207462394999027
+        }
+    },
+    {
+        "query": "azpoicvsdu rqymrwmblq fmoqe",
+        "rate": {
+            "BM25L": 0.015786608600979912,
+            "BM25Okapi": 0.015786608600979912,
+            "BM25Plus": 0.015780165963814485
+        }
+    },
+    {
+        "query": "azpoicvsdu emyq tuyq",
+        "rate": {
+            "BM25L": 0.019634860489149197,
+            "BM25Okapi": 0.02162579648580809,
+            "BM25Plus": 0.020735665344392307
+        }
+    },
+    {
+        "query": "azpoicvsdu ehagld prqfqr",
+        "rate": {
+            "BM25L": 0.019454605919521084,
+            "BM25Okapi": 0.019431988041853532,
+            "BM25Plus": 0.01960458547931554
+        }
+    },
+    {
+        "query": "azpoicvsdu mnkthuns yarq",
+        "rate": {
+            "BM25L": 0.022893420546364007,
+            "BM25Okapi": 0.023066485753052923,
+            "BM25Plus": 0.02342519685039368
+        }
+    },
+    {
+        "query": "azpoicvsdu lmdk undqqd",
+        "rate": {
+            "BM25L": 0.02066689822855161,
+            "BM25Okapi": 0.020638224072147104,
+            "BM25Plus": 0.020542033488693212
+        }
+    },
+    {
+        "query": "azpoicvsdu omeq daotar",
+        "rate": {
+            "BM25L": 0.02222880853586251,
+            "BM25Okapi": 0.022518518518518493,
+            "BM25Plus": 0.0225151829358613
+        }
+    },
+    {
+        "query": "azpoicvsdu qpmnohun yaet",
+        "rate": {
+            "BM25L": 0.026106934001670856,
+            "BM25Okapi": 0.02577110389610393,
+            "BM25Plus": 0.02763981861369036
+        }
+    },
+    {
+        "query": "azpoicvsdu dqolmrq yqmn",
+        "rate": {
+            "BM25L": 0.02057260414880846,
+            "BM25Okapi": 0.020611473720370976,
+            "BM25Plus": 0.020611473720370976
+        }
+    },
+    {
+        "query": "azpoicvsdu nunq yarnuns",
+        "rate": {
+            "BM25L": 0.019227608874280988,
+            "BM25Okapi": 0.01926560184422854,
+            "BM25Plus": 0.01926243002963446
+        }
+    },
+    {
+        "query": "azpoicvsdu ihaeq dgtk",
+        "rate": {
+            "BM25L": 0.016642335766423377,
+            "BM25Okapi": 0.01673763030392017,
+            "BM25Plus": 0.016639906582980535
+        }
+    },
+    {
+        "query": "azpoicvsdu fqvqr iqnt",
+        "rate": {
+            "BM25L": 0.022463496817671236,
+            "BM25Okapi": 0.022226338210779795,
+            "BM25Plus": 0.022242817423540284
+        }
+    },
+    {
+        "query": "azpoicvsdu iull thunw",
+        "rate": {
+            "BM25L": 0.020165460186142736,
+            "BM25Okapi": 0.026067907995618866,
+            "BM25Plus": 0.02584708948740222
+        }
+    },
+    {
+        "query": "azpoicvsdu bqluqvq thaeq",
+        "rate": {
+            "BM25L": 0.022096317280453248,
+            "BM25Okapi": 0.019871012724420378,
+            "BM25Plus": 0.023489259184902633
+        }
+    },
+    {
+        "query": "azpoicvsdu tiqntk eqvqn",
+        "rate": {
+            "BM25L": 0.018198362147406777,
+            "BM25Okapi": 0.0181735574738755,
+            "BM25Plus": 0.018146075911084192
+        }
+    },
+    {
+        "query": "azpoicvsdu gegml dmulk",
+        "rate": {
+            "BM25L": 0.017364203027604663,
+            "BM25Okapi": 0.017346182357301676,
+            "BM25Plus": 0.017491847020456586
+        }
+    },
+    {
+        "query": "azpoicvsdu pqrhmpe bqsmn",
+        "rate": {
+            "BM25L": 0.017358958462492247,
+            "BM25Okapi": 0.01974927013566885,
+            "BM25Plus": 0.019435524759168543
+        }
+    },
+    {
+        "query": "azpoicvsdu agteudq ihqn",
+        "rate": {
+            "BM25L": 0.023880007894217514,
+            "BM25Okapi": 0.02396856581532414,
+            "BM25Plus": 0.024226905652944608
+        }
+    },
+    {
+        "query": "azpoicvsdu imnte ymrrk",
+        "rate": {
+            "BM25L": 0.017718553228876832,
+            "BM25Okapi": 0.017296050735082114,
+            "BM25Plus": 0.017326017903551816
+        }
+    },
+    {
+        "query": "azpoicvsdu etrqqte eayqihqrq",
+        "rate": {
+            "BM25L": 0.014885309907271882,
+            "BM25Okapi": 0.014741715399610111,
+            "BM25Plus": 0.014863547758284579
+        }
+    },
+    {
+        "query": "azpoicvsdu ymttqre qkqe",
+        "rate": {
+            "BM25L": 0.02235161532682195,
+            "BM25Okapi": 0.022355814390381368,
+            "BM25Plus": 0.02234741784037564
+        }
+    },
+    {
+        "query": "azpoicvsdu mneiqr lqttqr",
+        "rate": {
+            "BM25L": 0.01895135818066962,
+            "BM25Okapi": 0.0195262483994878,
+            "BM25Plus": 0.01951687729963203
+        }
+    },
+    {
+        "query": "azpoicvsdu hqld bgndlq",
+        "rate": {
+            "BM25L": 0.016870748299319782,
+            "BM25Okapi": 0.017142857142857126,
+            "BM25Plus": 0.01714052509862607
+        }
+    },
+    {
+        "query": "azpoicvsdu bgret lmgshuns",
+        "rate": {
+            "BM25L": 0.021586521586521634,
+            "BM25Okapi": 0.021276595744680882,
+            "BM25Plus": 0.021545584045584043
+        }
+    },
+    {
+        "query": "azpoicvsdu eulw hmndwqrohuqf",
+        "rate": {
+            "BM25L": 0.014200477326968941,
+            "BM25Okapi": 0.014440864064924175,
+            "BM25Plus": 0.014442587729768475
+        }
+    },
+    {
+        "query": "azpoicvsdu mbealgtqlk rueqn",
+        "rate": {
+            "BM25L": 0.017782133856062754,
+            "BM25Okapi": 0.01786461967899511,
+            "BM25Plus": 0.01786461967899511
+        }
+    }
+]
