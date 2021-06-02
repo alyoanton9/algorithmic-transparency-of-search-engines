@@ -298,7 +298,7 @@ class Scraper():
       title_tag_name='div',
       title_class='organic__url-text',
       link_tag_name='a',
-      link_class='link_theme_outer'
+      link_class='Link_theme_outer'
     )
 
 
