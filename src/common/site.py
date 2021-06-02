@@ -16,3 +16,10 @@ def omit_keyword_quotes(string: str) -> str:
     'azpoicvsdu blabla' 
   '''
   return re.sub(f'"{chunk_keyword}"', f'{chunk_keyword}', string)
+
+
+def add_keyword_quotes(string: str) -> str:
+  '''
+  Opposite to 'omit_keyword_quotes'.
+  '''
+  return re.sub(f'{chunk_keyword}', f'"{chunk_keyword}"', string) 
