@@ -1,1 +1,2 @@
-data/* linguist-vendored
+data/www/* linguist-vendored
+data/www/chunks/* linguist-vendored
