@@ -1,4 +1,4 @@
-# algorithmic-transparency-on-search-engines-research
+# Algorithmic Transparency on Search Engines Research
 
 _This work is a Graduation Thesis (ITMO University)_
 
