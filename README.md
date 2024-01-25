@@ -26,13 +26,14 @@ perception, assuming no collaboration with them. By not relying on public knowle
 
 We employed the [Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index) to calculate the similarity rate, utilizing the site versions discovered by search robots as set, so here is a colour matrix.
 
-![engines-similarity](./assets/eng-similarity-by-version.png)
+<img alt="engines-similarity" height="500" src="./assets/eng-similarity-by-version.png" width="700"/>
 
 #### Re-index Time
 
 Shortly, this type of plot is a five-number summary of our honeypot web page re-indexing time distribution.
 
-![re-index](./assets/reindex-box-plot.png)
+<img alt="reindex" height="500" src="./assets/reindex-box-plot.png" width="700"/>
+
 
 For more details on monitoring system implementation, and even more obtained results, please refer to [Chapter 2](./thesis-algorithmic-transparency-of-se.pdf).
 
@@ -43,6 +44,6 @@ In comparing ranking functions, we employed both the Jaccard index and Spearmanâ
 However, the obtained disagreements in results prevented us from determining that the examined search engines solely rely on one of the BM25 functions. Nevertheless, you can explore the Box and Whiskers plot for the Jaccard index and the color matrix for Spearmanâ€™s coefficient below.
 For a more in-depth analysis, refer to [Chapter 3](./thesis-algorithmic-transparency-of-se.pdf).
 
-![rank-jaccard](./assets/ranks-jaccard.png)
+<img alt="rank-jaccard" height="500" src="./assets/ranks-jaccard.png" width="700"/>
 
-![rank-spearman](./assets/ranking-spearman-median.png)
+<img alt="ranking-spearman" height="500" src="./assets/ranking-spearman-median.png" width="700"/>
