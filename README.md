@@ -1,4 +1,4 @@
-# Algorithmic Transparency on Search Engines Research
+# Research: Algorithmic Transparency of Search Engines
 
 ## Disclaimer
 This research is a Bachelor's Graduation Thesis for [ITMO University](https://www.usnews.com/education/best-global-universities/itmo-university-529154)
