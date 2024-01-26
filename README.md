@@ -3,7 +3,7 @@
 ## Disclaimer
 This research is a Bachelor's Graduation Thesis for [ITMO University](https://www.usnews.com/education/best-global-universities/itmo-university-529154)
 
-It is important to note that this study is experimental and introductory, and it does not pretend to disclose engines' algorithms completely. However, the approach used may lead to further investigations in this area.
+❗ It is important to note that this study is experimental and introductory, and it does not pretend to disclose engines' algorithms completely. However, the approach used may lead to further investigations in this area.
 
 This README offers a brief overview, the complete report is available in the [PDF document](./thesis-algorithmic-transparency-of-se.pdf).
 
@@ -35,14 +35,15 @@ Shortly, this type of plot is a five-number summary of our honeypot web page re-
 <img alt="reindex" height="500" src="./assets/reindex-box-plot.png" width="700"/>
 
 
-For more details on monitoring system implementation, and even more obtained results, please refer to [Chapter 2](./thesis-algorithmic-transparency-of-se.pdf).
+❕ For more details on monitoring system implementation, and even more obtained results, please refer to [Chapter 2](./thesis-algorithmic-transparency-of-se.pdf).
 
 ### Ranking
 
 #### Ranking Similarity Rates
-In comparing ranking functions, we employed both the Jaccard index and Spearman’s coefficient.
+In comparing ranking functions, we employed both the Jaccard index and [Spearman’s coefficient](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient).
 However, the obtained disagreements in results prevented us from determining that the examined search engines solely rely on one of the BM25 functions. Nevertheless, you can explore the Box and Whiskers plot for the Jaccard index and the color matrix for Spearman’s coefficient below.
-For a more in-depth analysis, refer to [Chapter 3](./thesis-algorithmic-transparency-of-se.pdf).
+
+❕ For a more in-depth analysis, refer to [Chapter 3](./thesis-algorithmic-transparency-of-se.pdf).
 
 <img alt="rank-jaccard" height="500" src="./assets/ranks-jaccard.png" width="700"/>
 
